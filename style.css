@@ -1,8 +1,11 @@
 body {
+    padding-top: 15%;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #ececec;
 }
+
+
 
 #get-cat {
     display: block;
@@ -16,4 +19,8 @@ body {
     border-radius: 5px;
     margin: auto;
     background-color: #005e61;
+}
+
+.bmc-btn span {
+    font-size: 0.8em !important;
 }
