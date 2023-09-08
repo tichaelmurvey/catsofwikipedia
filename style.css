@@ -4,7 +4,7 @@ body {
     background-color: #ececec;
 }
 
-a#get-cat {
+#get-cat {
     display: block;
     width: max-content;
     border: 2px solid #000;
