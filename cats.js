@@ -28,6 +28,12 @@ WITH {
       schema:isPartOf <https://en.wikipedia.org/> .
 
     }
+    UNION {
+      ?item wdt:P31 wd:Q27303706.
+      ?article schema:about ?item ;
+  schema:isPartOf <https://en.wikipedia.org/> .
+
+    }
     }
   LIMIT 200
 } AS %i
