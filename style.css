@@ -3,3 +3,17 @@ body {
     text-align: center;
     background-color: #ececec;
 }
+
+a#get-cat {
+    display: block;
+    width: max-content;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #005e61;
+}

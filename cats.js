@@ -48,8 +48,12 @@ function getCat() {
     cats => {
       //Choose random cat
       var cat = cats.results.bindings[Math.floor(Math.random() * cats.results.bindings.length)];
-      //Go to cat's wikipedia page
-      window.open(cat.article.value, '_blank');
+      //Update link with cat url
+      document.getElementById("get-cat").href = cat.article.value;
     }
   );
 }
+
+document.getElementById("get-cat").addEventListener("click", getCat);
+
+getCat();
